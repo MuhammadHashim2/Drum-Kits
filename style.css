@@ -1,0 +1,92 @@
+div.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+div.sm{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: scale 0.1s ease-in-out;
+}
+body{
+    background-color: #f2f2f2; 
+    background-image: linear-gradient(to right top, #f6164d, #fb006e, #f50094, #df00bf, #b212eb);
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+div.crash{
+    background-image: url('./Img/crash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50px;
+}
+div.kick{
+    background-image: url('./Img/kick.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.snare{
+    background-image: url('./Img/snare.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50px;
+}
+div.tom{
+    background-image: url('./Img/tom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.sm:hover{
+   scale: 1.1;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffd0ff;
+}
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+/* div.container::before,div.container::after{
+  content: '';
+  z-index: -1;
+  position: absolute;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  top: -15px;
+  left: -15px;
+  background: linear-gradient(45deg, #0096FF, #0047AB, #000000, #6082B6, #87CEEB, #00008B, #145DA0, #00008B, #145DA0, #0096FF, #0047AB, #000000, #6082B6, #87CEEB);
+  background-repeat: repeat;
+  border-radius: 5px;
+  background-size: 600%;
+  animation: border 12s linear infinite;
+}
+
+div.container::after {
+  filter: blur(25px);
+}
+
+@keyframes border {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 250% 250%;
+  }
+} */
