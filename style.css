@@ -64,30 +64,4 @@ h1{
 }
 
 
-/* div.container::before,div.container::after{
-  content: '';
-  z-index: -1;
-  position: absolute;
-  width: calc(100% + 30px);
-  height: calc(100% + 30px);
-  top: -15px;
-  left: -15px;
-  background: linear-gradient(45deg, #0096FF, #0047AB, #000000, #6082B6, #87CEEB, #00008B, #145DA0, #00008B, #145DA0, #0096FF, #0047AB, #000000, #6082B6, #87CEEB);
-  background-repeat: repeat;
-  border-radius: 5px;
-  background-size: 600%;
-  animation: border 12s linear infinite;
-}
 
-div.container::after {
-  filter: blur(25px);
-}
-
-@keyframes border {
-  0% {
-    background-position: 0% 0%;
-  }
-  100% {
-    background-position: 250% 250%;
-  }
-} */
