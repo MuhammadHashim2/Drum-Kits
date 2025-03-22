@@ -18,7 +18,8 @@ body{
     background-image: linear-gradient(to right top, #f6164d, #fb006e, #f50094, #df00bf, #b212eb);
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
+    overflow: hidden;
 }
 div.crash{
     background-image: url('./Img/crash.png');
